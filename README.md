@@ -1,10 +1,10 @@
 ## ewsdocker/alpine-nginx
-LibreOffice in a Debian container
+NGINX in an nimmis/alpine-micro Alpine Linux container
 ____  
 
 ## ewsdocker/alpine-nginx Wiki  
 
-Please visit the [**ewsdocker/alpine-nginx Wiki**](https://github.com/ewsdocker/alpine-nginx/wiki/QuickStart) for complete documentation of this docker image.  
+Please visit the [**ewsdocker/alpine-nginx Wiki**](https://github.com/ewsdocker/alpine-nginx/wiki) for complete documentation of this docker image.  
 ____  
 
 ### About Docker Versions  
