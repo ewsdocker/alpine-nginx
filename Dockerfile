@@ -1,9 +1,9 @@
-# ewsdocker/alpine-nginx:0.0.2
-FROM nimmis/alpine-micro:edge
+# ewsdocker/alpine-nginx:0.0.3
+FROM alpine:edge
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
-ENV NGINX_VERSION 1.13.12
+ENV NGINX_VERSION 1.15.2
 
 RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 	&& CONFIG="\
@@ -140,7 +140,6 @@ RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 COPY scripts/. /
 
 EXPOSE 80
-
 STOPSIGNAL SIGTERM
 
 CMD ["nginx", "-g", "daemon off;"]
