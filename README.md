@@ -1,4 +1,4 @@
-### ewsdocker/alpine-nginx
+### ewsdocker/alpine-nginx:0.0.3
 An un-modified NGINX HHTP Web server image in an Alpine Linux container. 
 ____  
 
