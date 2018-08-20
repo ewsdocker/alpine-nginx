@@ -34,8 +34,8 @@ Below are presented two examples of the many ways to download, create and start 
    This procedure uses the _mount_ option of the _docker run_ command to map a **Docker Volume** on the **Docker Host** to the **alpine-nginx** _NGINX_ html folder.  It requires creation of a **Docker Volume**, which adds to the complexity. However, the benefit is that it is a **Docker** volume and not a _user's_ folder;
 
 In both approaches, the image will be 
-- downloaded (if not already present), 
-- built into a web service container (if not already present), and 
+- pulled from Docker Hub (if it is not already present), 
+- built into a web service container (if it is not already created), and 
 - started on **port 80**.  
 
 ____  
@@ -81,6 +81,7 @@ ____
 **Visit the [ewsdocker/alpine-nginx](https://github.com/ewsdocker/alpine-nginx/wiki) Wiki for complete documentation.**  
 ____  
 
+**ewsdocker/alpine-nginx**  
 **Copyright © 2018. EarthWalk Software.**  
 **Licensed under the GNU General Public License, GPL-3.0-or-later.**  
 
@@ -99,3 +100,17 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with **ewsdocker/alpine-nginx**.  If not, see 
 <http://www.gnu.org/licenses/>.  
+
+____  
+
+**NGINX**  
+**Copyright (C) 2011-2016 Nginx, Inc.**  
+**All rights reserved.**  
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:  
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.  
+
+1. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.  
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.  
