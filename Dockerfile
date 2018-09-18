@@ -1,5 +1,6 @@
-# ewsdocker/alpine-nginx:0.0.3
-FROM alpine:edge
+# ewsdocker/alpine-nginx:3.8.0
+#FROM nimmis/alpine-micro:edge
+FROM ewsdocker/alpine-base:3.8.0
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
