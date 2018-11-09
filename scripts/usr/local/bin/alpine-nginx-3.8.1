@@ -2,12 +2,12 @@
 # =========================================================================
 # =========================================================================
 #
-#	alpine-nginx:3.8.0
+#	alpine-nginx:3.8.1
 #
 # =========================================================================
 #
 # @author Jay Wheeler.
-# @version 3.8.0
+# @version 3.8.1
 # @copyright © 2018. EarthWalk Software.
 # @license Licensed under the GNU General Public License, GPL-3.0-or-later.
 # @package ewsdocker/alpine-nginx
@@ -41,6 +41,6 @@ docker run -d \
            --mount source=nginx-html,target=/usr/share/nginx/html \
            -p 80:80 \
            --network=nginx-net \
-           --name=alpine-nginx-3.8.0 \
-       ewsdocker/alpine-nginx:3.8.0
+           --name=alpine-nginx-3.8.1 \
+       ewsdocker/alpine-nginx:3.8.1
 
