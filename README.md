@@ -1,4 +1,4 @@
-### ewsdocker/alpine-nginx:3.8.1
+### ewsdocker/alpine-nginx:3.10.0
 An un-modified NGINX HHTP Web server image in an Alpine Linux container. 
 ____  
 
@@ -50,8 +50,8 @@ Execute the following _docker run_ command to download the image, create a servi
                --restart unless-stopped \
                -v ${HOME}/.local/shared/nginx-html:/usr/share/nginx/html \
                -p 80:80 \
-               --name=alpine-nginx-3.8.1 \
-           ewsdocker/alpine-nginx:3.8.1  
+               --name=alpine-nginx-3.10.0 \
+           ewsdocker/alpine-nginx:3.10.0  
 ____  
   
 **Docker Mount.**
@@ -74,8 +74,8 @@ Execute the following _docker run_ command to download the image, create a servi
                --restart unless-stopped \
                --mount source=nginx-html,target=/usr/share/nginx/html \
                -p 80:80 \
-               --name=alpine-nginx-3.8.1 \
-           ewsdocker/alpine-nginx:3.8.1  
+               --name=alpine-nginx-3.10.0 \
+           ewsdocker/alpine-nginx:3.10.0  
 ____  
   
 **Visit the [ewsdocker/alpine-nginx](https://github.com/ewsdocker/alpine-nginx/wiki) Wiki for complete documentation.**  

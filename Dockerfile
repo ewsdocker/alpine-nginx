@@ -1,4 +1,4 @@
-FROM ewsdocker/alpine-base:3.8.1
+FROM ewsdocker/alpine-base:3.10.0
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
